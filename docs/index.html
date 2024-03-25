@@ -152,9 +152,9 @@ function DetectAndServe(origin){
     
     let os = getMobileOperatingSystem();
     if (os == "Android") {
-        window.location.href = "https://play.google.com/store/apps/details?id=wtf.riedel.onesec&utm_campaign=" + origin; 
+        // window.location.href = "https://play.google.com/store/apps/details?id=wtf.riedel.onesec&utm_campaign=" + origin; 
     } else if (os == "iOS") {
-        window.location.href = "https://apps.apple.com/app/apple-store/id1532875441?pt=1178886&ct=" + origin + "&mt=8";
+        window.location.href = "https://apps.apple.com/de/app/on-point-minimal-home-screen/id6476465213";
     } else {
         // window.location.href = "https://one-sec.app";
     }
@@ -163,7 +163,7 @@ function DetectAndServe(origin){
 function UpdateAppStoreLinks(origin) {
     var appstoreLinks = document.getElementsByClassName("appstoreLink")
     Array.prototype.forEach.call(appstoreLinks, function(link, index) {
-        link.href = "https://apps.apple.com/app/apple-store/id1532875441?pt=1178886&ct=" + origin + "&mt=8";
+        link.href = "https://apps.apple.com/de/app/on-point-minimal-home-screen/id6476465213";
     });
 }
 
