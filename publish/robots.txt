@@ -1,0 +1,3 @@
+Disallow: /tag/
+Disallow: /blog_test/
+Disallow: /promo/

@@ -1,0 +1,40 @@
+.img-cell {
+  height: 225px;
+  justify-content: center;
+  overflow: hidden;
+  /*max-width: 100%;*/
+}
+
+.img-cell img {
+  /*height: 100%;*/
+  /*width: inherit;*/
+  padding: 0px !important;
+  border-radius: 0px !important;
+  /*object-fit: fill;*/
+  /*border: 1px solid transparent;*/
+}
+
+.post-category {
+  margin-bottom: 12px;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--bs-gray-400);
+}
+
+.img-cell .inline-image {
+  object-fit: contain !important;
+  height: 100%;
+  padding-top: 12px !important;
+}
+
+.inline-footnote {
+  font-size: 0.7rem;
+  display: inline-block;
+}
+
+.no-wrap {
+  white-space: nowrap;
+  display: inline-block;
+}
+
